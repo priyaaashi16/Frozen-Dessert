@@ -240,7 +240,7 @@
         
 }
 
-/* @media (max-width:1025px) and (min-width:375px) {
+@media (max-width:1025px) and (min-width:375px) {
     .banner-bg{
         height: 65vh;
     }
@@ -248,4 +248,4 @@
     .promotion{
         height: 50vh;
     }
-} */
+}
