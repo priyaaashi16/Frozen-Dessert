@@ -1,0 +1,265 @@
+
+.banner-bg,
+.banner-content,
+.product ,
+.Testimonials,
+.promotion,
+.history{
+    position: relative;
+}
+
+
+
+/* specified Css */
+
+/* navbar */
+
+.navbar{
+    text-align: left;
+}
+
+.navbar-brand{
+    font-size:2rem ;
+    font-family: 'ubuntu';
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+
+/* hero section */
+
+.banner-bg{
+    background: url('../images/banner-bg.jpg') no-repeat center center/cover;
+    height:100vh;
+}
+
+.banner-bg::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0,0.5);
+}
+
+.banner-content{
+   width: 35%;
+   padding: 10% 0;
+   text-align: left;
+}
+
+/* banner button */
+
+.banner-btn{
+    margin-top: 7%;
+    margin-right: 5%;
+    padding: 10px 35px;
+}
+
+/* featured products */
+
+.featured-img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* trending-product */
+
+.trending-product-img{
+    width: 300px;
+    height: 450px;
+    border-radius:25px;
+    margin-bottom: 1%;
+}
+
+/* promotion */
+
+.promotion{
+    background: url("../images/promotion-img.jpg") no-repeat center center/cover;
+    height: 75vh;
+    padding: 8% 0;
+    margin: 5% 0;
+}
+
+.outer{
+    border: 1px solid #fff;
+    padding: 0.5%;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.promo-content{
+    background-color: rgba(255, 255, 255, 0.726);
+    border-radius: 10px;
+}
+
+.highlight{
+    display: block;
+    background: #FDFF9E;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.prmo-btn{
+    margin: 5%;
+}
+
+/* Testimonials */
+
+.block{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1% 3%;
+    margin: 3% auto;  
+}
+
+.one{
+    background-color: #f8d6da;
+}
+
+.two{
+    background-color: #CFFFF1;
+}
+
+.three{
+    background-color: #FFFACF;
+}
+
+.person-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -30%;
+}
+
+/* about page css---------------------------------------------------------------------- */
+
+.about-img{
+    background: url('../images/about-banner-img.jpg') no-repeat center center/cover;
+}
+
+.about-content{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding-top: 15%;
+}
+
+.about-content p{
+    font-size: 1.5rem;
+    margin-top: -2%;
+}
+
+/* history section */
+
+.about-person-img{
+    width: 350px;
+}
+
+.history{
+    text-align: left;
+}
+
+.history p{
+    font-size: 1.1rem;
+}
+
+.history-content{
+    padding: 5%;
+}
+
+
+
+/* media query */
+
+@media (max-width:992px){
+    .banner-content{
+        width: 50%;
+     }
+
+     .big-heading{
+        font-size: 2.5rem;
+    }
+
+
+     /* promotions */
+
+     .promotion{
+        height: 70vh;
+     }
+
+     .outer{
+         width: 75%;
+         font-size: 2rem;
+     }
+
+
+     /* testimonials */
+     .block{
+        margin: 10% auto;  
+    }
+
+    /* about */
+
+    .about-content{
+        width: 100%;
+        padding-top: 32%;
+    }
+
+    .history{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:768px){
+
+    .navbar-brand{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+     }
+    
+       /* promotions */
+     .outer{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    /* testimonials */
+
+
+    .block{
+        width: 70%;
+    }  
+
+    .person-img{
+        margin-top: -20%;
+    }
+        
+}
+
+@media (max-width:1025px) and (min-width:375px) {
+    .banner-bg{
+        height: 55vh;
+    }
+
+    .big-heading{
+        font-size: 3rem;
+    }
+
+    .promotion{
+        height: 50vh;
+    }
+}
