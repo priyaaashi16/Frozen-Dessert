@@ -259,7 +259,7 @@
 
 @media (max-width:1025px) and (min-width:375px) {
     .banner-bg{
-        height: 65vh;
+        height: 60vh;
     }
 
     .big-heading{
@@ -267,6 +267,6 @@
     }
 
     .promotion{
-        height: 50vh;
+        height: 48vh;
     }
 }
