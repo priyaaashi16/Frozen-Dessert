@@ -182,10 +182,16 @@
 @media (max-width:992px){
     .banner-content{
         width: 50%;
+        padding: 10% 0;
      }
 
      .big-heading{
         font-size: 2.5rem;
+    }
+
+    .section-heading{
+        font-size: 1.8rem;
+        padding: 10% 0;
     }
 
 
@@ -229,6 +235,7 @@
     .banner-content{
         width: 100%;
         text-align: center;
+        padding: 30% 0;
      }
     
        /* promotions */
@@ -252,7 +259,7 @@
 
 @media (max-width:1025px) and (min-width:375px) {
     .banner-bg{
-        height: 55vh;
+        height: 65vh;
     }
 
     .big-heading{
