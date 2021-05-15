@@ -6,7 +6,8 @@
 .promotion,
 .history,
 .contact-content,
-.menu{
+.menu,
+.login{
     position: relative;
 }
 
@@ -201,6 +202,33 @@
 
 
 
+/* login page */
+
+.login-form{
+    background:#fff;
+    border: 1px solid rgb(95, 94, 94);
+    border-radius: 10px;
+    width: 35%;
+    margin: 5% auto;
+    padding: 3%;
+}
+
+.login label{
+    text-align: left;
+    width: 90% ;
+    font-size: 20px;
+}
+
+.login input{
+    margin-bottom: 6%;
+    width: 90% ;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
 /* media query */
 
 @media (max-width:992px){
@@ -250,6 +278,12 @@
     .history{
         text-align: center;
     }
+
+    /* login */
+
+    .login-form{
+        width: 60%;
+    }
     
 }
 
@@ -282,6 +316,12 @@
 
     .person-img{
         margin-top: -20%;
+    }
+
+     /* login */
+
+     .login-form{
+        width: 90%;
     }
         
 }
