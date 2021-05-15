@@ -7,6 +7,24 @@ h1,h2,h3,h4,h5,h6{
     padding: 5% 0;
 }
 
+hr{
+    border: 1px solid #130825;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+.menu img{
+    width: 250px;
+    height: 350px;
+    border-radius:10px;
+    margin-bottom: 1%;
+}
+
+i{
+    padding: 10px;
+}
+
+
 
 /* utility classes */
 
@@ -54,6 +72,13 @@ h1,h2,h3,h4,h5,h6{
     padding: 5% 0;
 }
 
+.menu-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #130825;
+    padding: 5% 0 2%;
+}
+
 
 /* color classes */
 
@@ -74,6 +99,18 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 10%;
 }
 
+.space-bottom{
+    margin-bottom: 5%;
+}
+
+/* Product box */
+
+/* .product-box{
+    background:#ffd1d7;
+    padding: 1%;
+    border-radius: 10px;
+} */
+
 /* div-wrapper */
 
 /* .div-wrapper{
@@ -88,6 +125,3 @@ h1,h2,h3,h4,h5,h6{
     padding: 1%;
 }
 
-.footer i{
-    padding: 10px;
-}

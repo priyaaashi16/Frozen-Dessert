@@ -4,7 +4,9 @@
 .product ,
 .Testimonials,
 .promotion,
-.history{
+.history,
+.contact-content,
+.menu{
     position: relative;
 }
 
@@ -64,6 +66,7 @@
 
 .featured-img{
     width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -175,6 +178,27 @@
     padding: 5%;
 }
 
+/* contact page -----------------------------------------------------------------------------*/
+
+.contact-content{
+    background: rgba(255, 255, 255, 0.651);
+    padding:0 5% 5%;
+    text-align: left;   
+
+}
+
+.contact-content h2{
+    text-align: center;
+}
+
+.contact-content p{
+    font-size: 1.1rem;
+    padding: 2% 0;
+}
+
+
+/* menu page----------------------------------------------------------------------- */
+
 
 
 /* media query */
@@ -184,6 +208,7 @@
         width: 50%;
         padding: 10% 0;
      }
+
 
      .big-heading{
         font-size: 2.5rem;
@@ -222,6 +247,7 @@
     .history{
         text-align: center;
     }
+    
 }
 
 
@@ -259,7 +285,7 @@
 
 @media (max-width:1025px) and (min-width:375px) {
     .banner-bg{
-        height: 65vh;
+        height: 60vh;
     }
 
     .big-heading{
@@ -267,6 +293,6 @@
     }
 
     .promotion{
-        height: 50vh;
+        height: 48vh;
     }
 }
