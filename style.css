@@ -4,7 +4,9 @@
 .product ,
 .Testimonials,
 .promotion,
-.history{
+.history,
+.contact-content,
+.menu{
     position: relative;
 }
 
@@ -64,6 +66,7 @@
 
 .featured-img{
     width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -175,6 +178,27 @@
     padding: 5%;
 }
 
+/* contact page -----------------------------------------------------------------------------*/
+
+.contact-content{
+    background: rgba(255, 255, 255, 0.651);
+    padding:0 5% 5%;
+    text-align: left;   
+
+}
+
+.contact-content h2{
+    text-align: center;
+}
+
+.contact-content p{
+    font-size: 1.1rem;
+    padding: 2% 0;
+}
+
+
+/* menu page----------------------------------------------------------------------- */
+
 
 
 /* media query */
@@ -185,6 +209,7 @@
         padding: 10% 0;
      }
 
+
      .big-heading{
         font-size: 2.5rem;
     }
@@ -194,6 +219,9 @@
         padding: 10% 0;
     }
 
+    .menu-heading{
+        font-size: 2rem;
+    }
 
      /* promotions */
 
@@ -222,6 +250,7 @@
     .history{
         text-align: center;
     }
+    
 }
 
 
