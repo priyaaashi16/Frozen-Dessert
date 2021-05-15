@@ -213,6 +213,7 @@
     padding: 3%;
 }
 
+
 .login label{
     text-align: left;
     width: 90% ;
@@ -322,6 +323,10 @@
 
      .login-form{
         width: 90%;
+    }
+
+    .login-form h2{
+        padding: 3%;
     }
         
 }
